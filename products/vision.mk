@@ -3,7 +3,7 @@ $(call inherit-product, device/htc/vision/full_vision.mk)
 PRODUCT_RELEASE_NAME := VISION
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_phone.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
