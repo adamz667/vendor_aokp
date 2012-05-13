@@ -12,3 +12,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_vision BUILD_ID=IMM76I BUILD_FI
 
 PRODUCT_NAME := aokp_vision
 PRODUCT_DEVICE := vision
+
+PRODUCT_COPY_FILES += \
+vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip

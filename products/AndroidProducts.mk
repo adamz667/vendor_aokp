@@ -3,7 +3,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/toro.mk \
     $(LOCAL_DIR)/crespo.mk \
     $(LOCAL_DIR)/crespo4g.mk \
-    $(LOCAL_DIR)/a500.mk \
     $(LOCAL_DIR)/captivatemtd.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/galaxysmtd.mk \
@@ -24,4 +23,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/vibrantmtd.mk \
     $(LOCAL_DIR)/vivow.mk \
     $(LOCAL_DIR)/wingray.mk \
-    $(LOCAL_DIR)/vision.mk \
+    $(LOCAL_DIR)/vision.mk 
