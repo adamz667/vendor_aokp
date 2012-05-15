@@ -89,5 +89,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
+# Camera shutter sound property
+PRODUCT_PROPERTY_OVERRIDES += \
+  persist.sys.camera-sound=1
+
 # Inherit common build.prop overrides
 -include vendor/aokp/configs/common_versions.mk
