@@ -5,3 +5,13 @@ service compcache /system/bin/handle_compcache
     user root
     group root
     oneshot
+
+#Add init.d
+# Execute files in /etc/init.d before booting
+#service userinit /system/xbin/busybox run-parts /system/etc/init.d
+#    disabled
+#    oneshot
+# Execute files in /etc/init.d before booting
+#service sysinit /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/init.d
+#    disabled
+#    oneshot
