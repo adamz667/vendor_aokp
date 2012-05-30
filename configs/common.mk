@@ -18,6 +18,8 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     SwagPapers \
     Stk
+    SwagPapers \
+    AOKPtips
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
