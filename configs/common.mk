@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
     VideoEditor \
     Trebuchet \
     SwagPapers \
-    Stk
+    Stk \
     SwagPapers \
     AOKPtips
 
