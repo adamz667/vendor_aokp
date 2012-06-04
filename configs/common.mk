@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     
 # init.d
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
     vendor/aokp/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
     vendor/aokp/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
     vendor/aokp/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
@@ -55,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
     vendor/aokp/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
     vendor/aokp/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
+    vendor/aokp/prebuilt/common/etc/liberty.cfg:system/etc/liberty.cfg \
     vendor/aokp/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
     
 # Cron
