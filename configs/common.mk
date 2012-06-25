@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     SpeechRecorder \
     VideoEditor \
     Trebuchet \
+    PinyinIME \
     SwagPapers \
     Stk \
     SwagPapers \
